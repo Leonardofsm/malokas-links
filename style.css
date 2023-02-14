@@ -180,11 +180,11 @@ footer {
 /* media queries */
 @media (min-width: 700px) {
   :root {
-    --bg-url: rgba(0, 0, 0);
+    --bg-url: rgba(255, 255, 255);
   }
 
   .light {
-    --bg-url: rgba(255, 255, 255);
+    --bg-url: rgba(0, 0, 0);
   }
 }
 
