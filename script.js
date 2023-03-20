@@ -11,6 +11,6 @@ function toggleMode() {
     img.setAttribute("src", "./assets/mlks_logo_dark.png")
   } else {
     // set tiver sem light mode, manter a imagem normal
-    img.setAttribute("src", "./assets/mlks_logo_light.png")
+    img.setAttribute("src", "./assets/new-logo-white.jpeg")
   }
 }

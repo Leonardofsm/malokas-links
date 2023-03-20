@@ -5,13 +5,15 @@
 }
 
 :root {
-  --text-color: black;
+  --text-color: white;
   --bg-url: url(./assets/bg_dark.jpg);
   --stroke-color: rgba(255, 255, 255, 0.5);
   --surface-color: rgba(255, 255, 255, 0.05);
   --surface-color-hover: rgba(0, 0, 0, 0.02);
   --highlight-color: rgba(255, 255, 255, 0.2);
   --switch-bg-url: url(./assets/moon-stars.svg);
+  --text-color-footer: white;
+  --bg-footer: url(./assets/bg_dark.jpg);
 }
 
 .light {
@@ -22,11 +24,13 @@
   --surface-color-hover: rgba(0, 0, 0, 0.02);
   --highlight-color: rgba(0, 0, 0, 0.1);
   --switch-bg-url: url(./assets/sun.svg);
+  --text-color-footer: black;
+  --bg-footer: url(./assets/bg_white.jpg);
 }
 
 body {
   background: var(--bg-url) no-repeat top center/cover;
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 body * {
@@ -168,10 +172,12 @@ footer {
   text-align: center;
   font-size: 14px;
   text-decoration: none;
+  color: var(--text-color-footer);
 }
 
 #personal-link {
   text-decoration: none;
+  color: var(--text-color-footer);
 }
 
 #personal-link:hover {
